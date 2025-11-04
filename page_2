@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Fun,Music,Dance,DJ,Teenagers">
+    <meta name="description" content="The final website has 6 html pages: the homepage, 4 detail pages, and the contact page. This detail page reiterates the Website Framework.">
+    <meta name="author" content="Fort">
+    <title>Website Framework — Detail</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <nav id="mainmenu">
+        <a href="index.html"><img src="logo.jpgz" alt="logo" title="Logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="detail1.html">Detail</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <form id="searchform" action="/search" method="get">
+            <h3>Search</h3>
+        </form>
+    </nav>
+
+    <header>
+        <h1>Page 1</h1>
+    </header>
+
+    <main>
+        <article>
+            <p>Hola </p>
+            <p>Here is the list:</p>
+            <ul>
+                <li>Hellooo</li>
+                <li>Hiiii</li>
+                <li>Good Byeeee</li>
+            </ul>
+            <p>This is gonna be the last part</p>
+        </article>
+
+        <aside>
+            <p>This is the aside part of my website</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;</p>
+    </footer>
+</body>
+</html>
