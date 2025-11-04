@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   border: 0;
   margin: 0;
@@ -15,6 +17,21 @@ h1 {
   letter-spacing: 2px;
 }
 
+header {
+  position: relative;
+}
+
+nav {
+  position: static;
+}
+
+img {
+  width: 100px;
+  border-color: red;
+  border-width: 2px;
+  border-style: dashed;
+}
+
 #mainmenu > a {
   width: 20%;
   height: 100%;
@@ -27,7 +44,12 @@ h1 {
   height: 100%;
 }
 
-
+#mainmenu > ul {
+  width: 60%;
+  line-height: 7em;
+  float: left;
+  text-align: center;
+}
 
 #mainmenu > ul > li {
   display: inline;
@@ -53,12 +75,21 @@ h1 {
   display: block;
 }
 
+#company_aside > p {
+  text-indent: 50px;
+  font-size: 25px;
+}
 
 #company_aside > p::first-letter {
   font-size: 200%;
   color: red;
 }
 
+#company_payoff > strong {
+  word-spacing: 10px;
+  color: blue;
+  text-decoration-line: underline;
+}
 
 #company_payoff > strong:hover {
   background-color: yellow;
@@ -70,7 +101,31 @@ main {
   width: 100%;
 }
 
+main > .main-article {
+  width: 50%;
+  float: left;
+}
 
+main > .main-article > a {
+  float: left;
+}
+
+#company_footer {
+  clear: both;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#company_footer_section_1 {
+  width: 30%;
+  float: left;
+}
+
+#company_footer_section_2 {
+  width: 70%;
+  float: left;
+}
 
 #company_footer_section_2 > aside,
 #company_footer_section_2 > article,
@@ -99,14 +154,14 @@ a:visited {
   color: red;
 }
 
-#cookies-message {
-  position: fixed;
+#final-message {
+  position: static;
   bottom: 0;
   width: 100%;
   background-color: #eee;
   text-align: center;
   padding: 1em;
-  z-index: 9999;
+  z-index: 5;
 }
 
 /* Responsive media queries */
