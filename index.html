@@ -7,10 +7,23 @@
   <meta name="author" content="Fort">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inholland ® Official</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="icon" href="logo.jpg">
 </head>
+
 <body>
+
+  <nav id="mainmenu">
+    <a href="#"><img src="x.png" alt="Logo" title="Site Logo ™"></a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="archive.html">Archive</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <form><h3>Search</h3></form>
+  </nav>
 
   <header id="company_payoff">
     <h1>Hey, welcome to your "ultimate" guide!</h1>
@@ -28,19 +41,26 @@
   </aside>
 
   <main>
-    <article class="main-article">
-      <a href="#"><img src="x.png" alt="Basics thumbnail" title="Learn basics ™"></a>
-      <header>Learn the basics</header>
-      <p>bladb — basic layout and design building.</p>
-      <a href="#">Continue reading</a>
-    </article>
+  
+<article class="main-article">
+  <figure>
+    <a href="#"><img src="x.png" alt="Basics thumbnail" title="Learn basics ™"></a>
+    <figcaption>Learn the basics — discover how layout and design blend together.</figcaption>
+  </figure>
+  <header>Learn the basics</header>
+  <p>bladb — basic layout and design building.</p>
+  <a href="#">Continue reading</a>
+</article>
 
-    <article class="main-article">
-      <a href="#"><img src="x.png" alt="Free stuff thumbnail" title="Free stuff €"></a>
-      <header>Grab some free stuff</header>
-      <p>Hello & welcome to our world.</p>
-      <a href="#">Continue reading</a>
-    </article>
+<article class="main-article">
+  <figure>
+    <a href="#"><img src="x.png" alt="Basics thumbnail" title="Learn basics ™"></a>
+    <figcaption>Learn the basics — discover how layout and design blend together.</figcaption>
+  </figure>
+  <header>Learn the basics</header>
+  <p>bladb — basic layout and design building.</p>
+  <a href="#">Continue reading</a>
+</article>
 
     <table>
       <tr><td>Row 1 - odd</td></tr>
@@ -77,15 +97,30 @@
         <a href="#"><img src="x.png" alt="Flick image 2" title="Flick 2 €"></a>
       </section>
     </section>
+	
+	  <section id="final-message">
+    Have a nice day and good luck
+  </section>
 
-
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
 
     <p>&copy; 2025 Fort. All rights reserved ® — powered by HTML5 & CSS3.</p>
   </footer>
 
-  <section id="cookies-message">
-    We use cookies to improve your experience.
-  </section>
+
 
 </body>
 </html>
