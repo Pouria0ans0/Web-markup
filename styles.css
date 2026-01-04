@@ -1,3 +1,5 @@
+/* this is my css code */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -85,7 +87,7 @@ img {
   color: red;
 }
 
-#company_payoff > strong {
+#company_payoff > strong:active {
   word-spacing: 10px;
   color: blue;
   text-decoration-line: underline;
@@ -161,10 +163,10 @@ a:visited {
   background-color: #eee;
   text-align: center;
   padding: 1em;
-  z-index: 5;
+  z-index: 9999;
 }
 
-/* Responsive media queries */
+
 @media (max-width: 768px) {
   body {
     width: 100%;
