@@ -1,0 +1,10 @@
+Student name: Pouria Ansari
+Student number: 740264
+Student class: IT.1A
+GitHub Repository: https://github.com/Pouria0ans0/Web-markup.git
+GitHub Pages URL: 
+
+https://github.com/Pouria0ans0/Web-markup/blob/main/page_1.html
+https://github.com/Pouria0ans0/Web-markup/blob/main/page_2.html
+https://github.com/Pouria0ans0/Web-markup/blob/main/contact.html
+https://github.com/Pouria0ans0/Web-markup/blob/main/styles.css
